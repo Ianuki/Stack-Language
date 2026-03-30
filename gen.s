@@ -27,13 +27,13 @@ loop:
     xor rdi, rdi 
     syscall
 
-.log:
+log:
     push rcx
     push r11
 
     mov rax, 1
     mov rdi, 1
-    mov rdx, rsi
+    mov rdx, 1
     mov rsi, rsp
     add rsi, 8
 
