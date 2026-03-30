@@ -1,0 +1,8 @@
+psh 255
+
+.loop
+    log
+    psh 1
+    sub
+
+    jmp != 0 loop
