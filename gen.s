@@ -35,7 +35,7 @@ log:
     mov rdi, 1
     mov rdx, 1
     mov rsi, rsp
-    add rsi, 8
+    add rsi, 24
 
     syscall
 
